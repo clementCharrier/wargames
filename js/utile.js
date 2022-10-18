@@ -23,11 +23,10 @@ function ajaxRequest(type,url,data,callback){
     xhr.send();
 }
 function affichageTableau(){
-    ajaxRequest('GET','http://10.30.40.101/secuWebM2/warGame/php/comment.php?request=receive',null,setTableau);
+    ajaxRequest('GET','http://localhost/wargames/php/comment.php',null,setTableau);
 }
 
 function setTableau(response){
-
     for (let item in response){
         var newDiv = document.createElement("div");
         newDiv.setAttribute("class","card");

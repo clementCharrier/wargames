@@ -1,0 +1,15 @@
+#navBrand{
+    padding-left: 10px;
+}
+#jumbotron{
+    margin-top: 20px;
+}
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}

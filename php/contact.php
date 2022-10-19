@@ -46,7 +46,7 @@
     
         <div class="container">
             <h1>Formulaire de contact</h1>
-            <form action="comment.php?request=add" method="GET">
+            <form action="addComment.php" method="POST">
                 <label for="fname">Nom & prénom</label>
                 <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
 

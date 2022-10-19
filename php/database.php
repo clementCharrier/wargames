@@ -6,7 +6,7 @@ function dbConnect(){
     $port=5432; 
     $dsn = "pgsql:dbname=$dbname;host=$host;port=$port";
     $user = "useradmin";
-    $password = "admin";
+    $password = "test";
     
     try {
         $conn = new PDO($dsn, $user, $password);

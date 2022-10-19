@@ -30,6 +30,9 @@
                      <li class="nav-item">
                         <a class="nav-link active text-warning" href="admin.php">Administration</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="deconnexion.php">Deconnexion</a>
+                    </li>
                     
                     
                 </ul>
